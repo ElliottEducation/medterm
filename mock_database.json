@@ -1,75 +1,77 @@
 {
   "pericarditis": {
     "term": "pericarditis",
+    "category": "Cardiovascular",
     "chapter1_structure": {
-      "components": [
-        {"part": "peri-", "type": "Prefix", "meaning": "around (在...周围)"},
-        {"part": "cardi", "type": "Word Root", "meaning": "heart (心脏)"},
-        {"part": "itis", "type": "Suffix", "meaning": "inflammation (炎症)"}
-      ],
+      "components": [{"part": "peri-", "type": "Prefix", "meaning": "around (在...周围)"}, {"part": "cardi", "type": "Word Root", "meaning": "heart (心脏)"}, {"part": "itis", "type": "Suffix", "meaning": "inflammation (炎症)"}],
       "combining_form": "cardi/o",
-      "rule_applied": "The Vowel Drop Rule (元音省略法则): 后缀 -itis 以元音 i 开头，因此词根 cardi/o 的连接元音 o 被省略。"
+      "rule_applied": "The Vowel Drop Rule: 后缀 -itis 以元音 i 开头，省略了连接元音 o。"
     },
     "chapter2_extensions": {
-      "pronunciation_rule": "字母 c 在字母 a 前发 /k/ 的音 (car-)。",
-      "plural_form": "pericarditides (古典拉丁规则) / pericarditis (临床常用)",
-      "plural_rule_explanation": "通常作为表示病理状态的不可数名词。若特指多种类型的心包炎，学术语境下 -itis 变 -itides。",
-      "mnemonics_eponyms": "词根拆解法记忆：peri(包围) + cardi(心) + itis(发炎) = 心包炎。"
+      "pronunciation_rule": "c 在 a 前发 /k/。",
+      "plural_form": "pericarditides",
+      "plural_rule_explanation": "-itis 变为 -itides (古典拉丁规则)。",
+      "mnemonics_eponyms": "围绕心脏的炎症。"
     }
   },
-  "gastroenterology": {
-    "term": "gastroenterology",
+  "otorhinolaryngology": {
+    "term": "otorhinolaryngology",
+    "category": "ENT",
     "chapter1_structure": {
-      "components": [
-        {"part": "gastr", "type": "Word Root", "meaning": "stomach (胃)"},
-        {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"},
-        {"part": "enter", "type": "Word Root", "meaning": "intestines (肠)"},
-        {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"},
-        {"part": "logy", "type": "Suffix", "meaning": "study of (学科/学问)"}
-      ],
-      "combining_form": "gastr/o, enter/o",
-      "rule_applied": "Keep-the-Vowel Rule (多词根保留法则): 连接 gastr 和 enter 两个词根时，中间的 o 必须保留。"
+      "components": [{"part": "ot", "type": "Word Root", "meaning": "ear (耳)"}, {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"}, {"part": "rhin", "type": "Word Root", "meaning": "nose (鼻)"}, {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"}, {"part": "laryng", "type": "Word Root", "meaning": "larynx (喉)"}, {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"}, {"part": "logy", "type": "Suffix", "meaning": "study of (学科)"}],
+      "combining_form": "ot/o, rhin/o, laryng/o",
+      "rule_applied": "多词根保留法则：连接元音 o 全部保留，因为后续成分皆以辅音开头。"
     },
     "chapter2_extensions": {
-      "pronunciation_rule": "g 在 a 前发硬音 /g/；c 在 o 前发 /k/。",
-      "plural_form": "gastroenterologies",
-      "plural_rule_explanation": "英语常规变化：辅音字母+y结尾，变y为i加-es。",
-      "mnemonics_eponyms": "直译为：研究胃和肠的学科。"
+      "pronunciation_rule": "rh 组合中 h 不发音。",
+      "plural_form": "otorhinolaryngologies",
+      "plural_rule_explanation": "y 变为 i 加 -es。",
+      "mnemonics_eponyms": "耳-鼻-喉科学 (ENT)。"
+    }
+  },
+  "appendices": {
+    "term": "appendices",
+    "category": "Gastrointestinal",
+    "chapter1_structure": {
+      "components": [{"part": "append", "type": "Word Root", "meaning": "hang to (附加)"}, {"part": "ices", "type": "Suffix", "meaning": "things (复数后缀)"}],
+      "combining_form": "None",
+      "rule_applied": "这是复数形式的直接拆解。"
+    },
+    "chapter2_extensions": {
+      "pronunciation_rule": "重音在第二个音节。",
+      "plural_form": "appendices",
+      "plural_rule_explanation": "单数 appendix (-ix 结尾) 变复数时去掉 x 加上 -ces。",
+      "mnemonics_eponyms": "阑尾的复数。"
     }
   },
   "erythrocyte": {
     "term": "erythrocyte",
+    "category": "Hematology",
     "chapter1_structure": {
-      "components": [
-        {"part": "erythr", "type": "Word Root", "meaning": "red (红色的)"},
-        {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"},
-        {"part": "cyte", "type": "Suffix", "meaning": "cell (细胞)"}
-      ],
+      "components": [{"part": "erythr", "type": "Word Root", "meaning": "red (红色)"}, {"part": "o", "type": "Combining Vowel", "meaning": "连接元音"}, {"part": "cyte", "type": "Suffix", "meaning": "cell (细胞)"}],
       "combining_form": "erythr/o",
-      "rule_applied": "标准连接法则：后缀 -cyte 以辅音 c 开头，因此保留连接元音 o。"
+      "rule_applied": "后缀以辅音开头，保留连接元音 o。"
     },
     "chapter2_extensions": {
-      "pronunciation_rule": "c 在 y 前发 /s/ 的音 (-cyte 读作 /saɪt/)。",
+      "pronunciation_rule": "c 在 y 前发 /s/。",
       "plural_form": "erythrocytes",
-      "plural_rule_explanation": "英语常规变化：直接加 -s。",
-      "mnemonics_eponyms": "源于希腊语，erythros (红) + kytos (中空容器/细胞)。"
+      "plural_rule_explanation": "直接加 -s。",
+      "mnemonics_eponyms": "红细胞。"
     }
   },
-  "appendix": {
-    "term": "appendix",
+  "cholecystectomy": {
+    "term": "cholecystectomy",
+    "category": "Gastrointestinal",
     "chapter1_structure": {
-      "components": [
-        {"part": "append", "type": "Word Root", "meaning": "hang to (悬挂/附加)"},
-        {"part": "ix", "type": "Suffix", "meaning": "thing (事物/结构)"}
-      ],
-      "combining_form": "None",
-      "rule_applied": "非典型医用词根连接，直接由拉丁语演化而来。"
+      "components": [{"part": "chol/e", "type": "Word Root", "meaning": "bile (胆汁)"}, {"part": "cyst", "type": "Word Root", "meaning": "sac/bladder (囊/膀胱)"}, {"part": "ectomy", "type": "Suffix", "meaning": "removal (切除)"}],
+      "combining_form": "chol/e",
+      "rule_applied": "特殊连接元音 e；cyst 与 ectomy 之间因元音冲突省略了 o。"
     },
     "chapter2_extensions": {
-      "pronunciation_rule": "重音在第二个音节 (ap-PEN-dix)。",
-      "plural_form": "appendices",
-      "plural_rule_explanation": "拉丁文古典规则：词尾是 -ex 或 -ix 时，去掉 x 并加上 -ces。",
-      "mnemonics_eponyms": "字面意思是“附加在盲肠上的东西”（阑尾）。"
+      "pronunciation_rule": "ch 发 /k/ 的音。",
+      "plural_form": "cholecystectomies",
+      "plural_rule_explanation": "y 变 i 加 -es。",
+      "mnemonics_eponyms": "胆囊切除术。"
     }
   }
 }
